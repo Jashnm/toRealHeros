@@ -13,50 +13,55 @@
 </head>
 <body>
     <div class="container">
-    <div>
-        <h1>To our front-line heros</h1>
-        
-            <i class="fas fa-stethoscope fa-2x"></i>
-            <i class="fas fa-user-nurse fa-2x"></i>
-            <i class="fas fa-microscope fa-2x"></i>
-            <i class="fas fa-ambulance fa-2x"></i>
-            <span class="equal">=</span>
-            <i class="fas fa-virus-slash fa-2x"></i>
+        <div>
+            <h1>To our front-line heros</h1>
+            
+                <i class="fas fa-stethoscope fa-2x"></i>
+                <i class="fas fa-user-nurse fa-2x"></i>
+                <i class="fas fa-microscope fa-2x"></i>
+                <i class="fas fa-ambulance fa-2x"></i>
+                <span class="equal">=</span>
+                <i class="fas fa-virus-slash fa-2x"></i>
 
 
-    </div>
-    <div class="row">
-        <div class="col inputCard">
-                <form action="/">
-                    <input type="text" name="message" placeholder="My message - SA">
-                    <button type="submit" class="messageButton">Send</button>
-                </form>
         </div>
-    </div>
+        <div class="row">
+            <div class="col inputCard">
+                    <form action="/">
+                        <input type="text" name="message" placeholder="My message - SA" required>
+                        <button type="submit" class="messageButton">Send</button>
+                    </form>
+            </div>
+        </div>
 
-    <div class="row">
-        <div class="col">
-            <div class="info">
-                  <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We aim to provide your encouraging, proudful messages to real-life heros of humanity.</h6>">
-                    What?
-                  </button>
-                  <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>In such a disastrous time where humans are fighting an invisible villian, our medical staff and scientists are exposing themselved to protect us. So, this is just a 'thank you' note to tell them how proud we are of them.</h6>">
-                    Why?
-                  </button>
-                  <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We've partenered with hospitals and some PPE making companies who will transfer your proud messages to them.</h6>">
-                    How?
-                  </button>
+        <div class="row">
+            <div class="col">
+                <div class="info">
+                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We aim to provide your encouraging, proudful messages to real-life heros of humanity.</h6>">
+                        What?
+                    </button>
+                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>In such a disastrous time where humans are fighting an invisible villian, our medical staff and scientists are exposing themselved to protect us. So, this is just a 'thank you' note to tell them how proud we are of them.</h6>">
+                        Why?
+                    </button>
+                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We've partenered with hospitals and some PPE making companies who will transfer your proud messages to them.</h6>">
+                        How?
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-    <a tabindex="0" class="fas fa-info-circle fa-2x" role="button" data-toggle="popover" data-placement="auto" data-trigger="focus" title="Created by" data-html="true" data-content="<br><h6>Neel Adwani</h6><br><h6>Jashn Maloo</h6>"></a>
+    <div class="container">
+        <footer class="footer">
+           <span class="text-muted">Created with ❤ by <a href="https://steamattic.com/">STEAM Attic</a></span> 
+        </footer>
+    </div>
 
-</div>
+
      
         <script>
             $(function () {
                 $('[data-toggle="popover"]').popover()
-            })
+            });
         </script>
          
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
