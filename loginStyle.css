@@ -10,10 +10,12 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #000;
+  background-color: #D5534C;
   color: #fff;
 }
-
+.fas {
+  color: #262B50;
+}
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -42,4 +44,8 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.btn:hover {
+  background-color: #262B50;
+  color: #fff;
 }
