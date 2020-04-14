@@ -1,23 +1,22 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Send your messages to real-life heros</title>
+    <title>Send your messages to real-life heroes</title>
 
-    <meta name="description" content="Send encouraging and supporting messages to our front-line heros at the hour of need." />
-    <meta name="keywords" content="coronavirus, covid-19, doctors, nurses, message, prevention, hospital, sanitary" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/6d2d9e71f4.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <div class="container">
         <div>
-            <h1>To our front-line heros</h1>
+            <h2>To our real-life heroes</h2>
             
                 <i class="fas fa-stethoscope fa-2x"></i>
                 <i class="fas fa-user-nurse fa-2x"></i>
@@ -30,32 +29,34 @@
         </div>
         <div class="row">
             <div class="col inputCard">
-                    <form action="/">
-                        <input type="text" name="message" placeholder="My message - SA" required>
+                    <form action="note.php">
+                        <!-- <input type="text" name="note" id = "note" placeholder="My message - SA" required> -->
+                        <textarea name="note" id="" cols="30" rows="10" required></textarea>
                         <button type="submit" class="messageButton">Send</button>
-                    </form>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="info">
-                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We aim to provide your encouraging, proudful messages to real-life heros of humanity.</h6>">
+                    </form><br><br>
+                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>Send your wishes and supports to the doctors, nurses, etc. fighting coronavirus to protect us.</h6>">
                         What?
                     </button>
                     <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>In such a disastrous time where humans are fighting an invisible villian, our medical staff and scientists are exposing themselved to protect us. So, this is just a 'thank you' note to tell them how proud we are of them.</h6>">
                         Why?
                     </button>
-                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We've partenered with hospitals and some PPE making companies who will transfer your proud messages to them.</h6>">
+                    <button type="button" class="btn btn-outline-dark" data-container="body" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="<h6>We've partenered with Alpha who will then direct your proud messages to them.</h6>">
                         How?
                     </button>
-                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col brandLogo">
+                Powered by <br>
+                <img src="alphawhite.webp" alt="" class="alphaLogo">
+                <br>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container last">
+        <br><br>
         <footer class="footer">
-           <span class="text-muted">Created with ❤ by <a href="https://steamattic.com/">STEAM Attic</a></span> 
+           <span>Created with ❤ by <a href="https://steamattic.com/">STEAM Attic</a></span> 
         </footer>
     </div>
 
